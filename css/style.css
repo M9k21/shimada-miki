@@ -5,7 +5,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-p {
+#pageBodyMain p {
   font-size: 16px;
   line-height: 1.875;
 }
@@ -16,40 +16,40 @@ figure {
 }
 
 /* 見出し */
-.pageTitle {
+#pageBodyMain .pageTitle {
   font-size: 28px;
   line-height: 1.5;
 }
 
-.heading-typeA {
+#pageBodyMain .heading-typeA {
   font-size: 22px;
   color: #000000;
   line-height: 1.5;
 }
 
-h3 {
+#pageBodyMain h3 {
   font-size: 20px;
   line-height: 1.9;
 }
 
-.articleDetailBody,
-.articleDetailFoot {
+#pageBodyMain .articleDetailBody,
+#pageBodyMain .articleDetailFoot {
   width: 800px;
   margin: 0 auto;
 }
 
 /* 余白 */
-.articleDetailHead {
+#pageBodyMain .articleDetailHead {
   margin-bottom: 100px;
 }
 
-.articleDetailFoot {
+#pageBodyMain .articleDetailFoot {
   margin-top: 2opx;
   padding-top: 15px;
 }
 
 /* タイトルヘッダー */
-.articleDetail .articleDetailHead {
+#pageBodyMain .articleDetail .articleDetailHead {
   background-image: url("../images/main.jpg");
   background-position: center center;
   background-size: cover;
@@ -57,7 +57,7 @@ h3 {
   height: 250px;
 }
 
-.articleDetail .articleDetailHead .title {
+#pageBodyMain .articleDetail .articleDetailHead .title {
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0);
   width: 420px;
@@ -65,17 +65,17 @@ h3 {
   margin-left: 200px;
 }
 
-.articleDetail .articleDetailHead .title .pageTitle {
+#pageBodyMain .articleDetail .articleDetailHead .title .pageTitle {
   margin:0;
 }
 
-.articleDetail .articleDetailHead .title p {
+#pageBodyMain .articleDetail .articleDetailHead .title p {
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 20px;
 }
 
-.articleDetail h2 {
+#pageBodyMain .articleDetail h2 {
   background-image: url("../images/icon-title.png");
   background-size: 23px;
   background-repeat: no-repeat;
@@ -85,13 +85,13 @@ h3 {
 }
 
 /* PDFリンク */
-.articleDetailFoot .pdfLink {
+#pageBodyMain .articleDetailFoot .pdfLink {
   text-align: center;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
-.articleDetailFoot .pdfLink a{
+#pageBodyMain .articleDetailFoot .pdfLink a{
   position: relative;
   line-height: 1.187;
   text-decoration: none;
@@ -101,7 +101,7 @@ h3 {
   background-color: #055AAC;
   padding: 15px 20px;
 }
-.articleDetailFoot .pdfLink a:before {
+#pageBodyMain .articleDetailFoot .pdfLink a:before {
   position: absolute;
   top: 35px;
   left: 10px;
@@ -112,7 +112,7 @@ h3 {
   background: url('../images/icon-chevronRightWhite.svg') center/contain no-repeat;
 }
 
-.articleDetailFoot .pdfLink a:after {
+#pageBodyMain .articleDetailFoot .pdfLink a:after {
   position: absolute;
   top: 35px;
   right: 90px;
@@ -123,30 +123,30 @@ h3 {
   background: url('../images/icon-pdf.svg') center/contain no-repeat;
 }
 
-.articleDetailFoot .pdfLink a:hover {
+#pageBodyMain .articleDetailFoot .pdfLink a:hover {
   background-color: #347CBC;
 }
 /* ページリンク */
-.articleDetailFoot .pageLink:after {
+#pageBodyMain .articleDetailFoot .pageLink:after {
   content: "";
   clear: both;
   display: block;
 }
 
-.articleDetailFoot .pageLink .pageLinkLeft {
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkLeft {
   float: left;
 }
 
-.articleDetailFoot .pageLink .pageLinkRight {
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkRight {
   float: right;
 }
 
-.articleDetailFoot .pageLink .pageLinkLeft a,
-.articleDetailFoot .pageLink .pageLinkRight a {
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkLeft a,
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkRight a {
   color: #0C419A;
   text-decoration: none;
 }
-.articleDetailFoot .pageLink .pageLinkLeft a:hover,
-.articleDetailFoot .pageLink .pageLinkRight a:hover {
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkLeft a:hover,
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkRight a:hover {
   text-decoration: underline;
 }
