@@ -213,3 +213,90 @@ figure {
   height: 10px;
   background: url('../images/icon-chevronRight.svg') center/contain no-repeat;
 }
+
+/* 企業情報 */
+#pageBodySub .infoList {
+  width: 1000px;
+  margin: 0 auto;
+  border-top: solid 2px #333333;
+  margin-top: 150px;
+  padding-top: 20px;
+}
+
+#pageBodySub .infoList h3 {
+  margin:0;
+  font-size: 20px;
+  line-height: 1.9;
+  border-bottom: 1px dotted #333333;
+  padding-bottom: 30px ;
+  margin-bottom: 30px;
+}
+
+#pageBodySub .infoListItem {
+  border-bottom: 1px dotted #333333;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+#pageBodySub .infoList .infoListItem h4{
+  font-size: 16px;
+  line-height: 1.875;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#pageBodySub .infoList .infoListItem ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#pageBodySub .infoList .infoListItem ul li{
+  display: flex;
+}
+
+#pageBodySub .infoList .infoListItem ul li a{
+  position: relative;
+  color: #0C419A;
+  font-size: 14px;
+  line-height: 1.5px;
+  text-decoration: none;
+  width: 250px;
+  padding: 20px 15px;
+  box-sizing: border-box;
+}
+#pageBodySub .infoList .infoListItem ul li a:hover {
+  text-decoration: underline;
+}
+#pageBodySub .infoList .infoListItem ul li a:before {
+  position: absolute;
+  top: 15px;
+  left: 4px;
+  display: block;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: url('../images/icon-chevronRight.svg') center/contain no-repeat;
+}
+
+/* 前のページに戻る */
+#pageBodySub .infoList .backPage p {
+  margin: 50px 0;
+}
+
+#pageBodySub .infoList .backPage a {
+  color: #0C419A;
+  font-size: 16px;
+  line-height: 1.875;
+  text-decoration: none;
+  background-image: url("../images/icon-chevronLeft.svg");
+  background-repeat: no-repeat;
+  background-size: 3px;
+  padding-left: 15px;
+  background-position: 0 50%;
+}
+#pageBodySub .infoList .backPage a:hover {
+  text-decoration: underline;
+}
