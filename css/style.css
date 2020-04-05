@@ -48,6 +48,10 @@ figure {
   padding-top: 15px;
 }
 
+#pageBodySub {
+  margin-top: 40px;
+}
+
 /* タイトルヘッダー */
 #pageBodyMain .articleDetail .articleDetailHead {
   background-image: url("../images/main.jpg");
@@ -149,4 +153,63 @@ figure {
 #pageBodyMain .articleDetailFoot .pageLink .pageLinkLeft a:hover,
 #pageBodyMain .articleDetailFoot .pageLink .pageLinkRight a:hover {
   text-decoration: underline;
+}
+
+/* ローカルナビ */
+#pageBodySub .localNavi {
+  width: 760px;
+  background-color: #DEECF8;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#pageBodySub .localNavi h4 {
+  font-size: 16px;
+  line-height: 1.875;
+  margin: 0 0 10px 0;
+}
+
+#pageBodySub .localNavi ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+#pageBodySub .localNavi ul li {
+  display: flex;
+}
+
+#pageBodySub .localNavi ul li a {
+  position: relative;
+  color: #0C419A;
+  font-size:16px;
+  line-height: 1.187;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  width: 240px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pageBodySub .localNavi ul li a:hover {
+  background-color: #F4F4F4;
+}
+#pageBodySub .localNavi ul li a:before {
+  position: absolute;
+  top: 45%;
+  left: 8px;
+  display: block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url('../images/icon-chevronRight.svg') center/contain no-repeat;
 }
