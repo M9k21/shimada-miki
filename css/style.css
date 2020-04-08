@@ -434,6 +434,7 @@ figure {
 #pageBodyFoot .footerTop h3,
 #pageBodyFoot .footerTop a {
   margin-right: 40px;
+  vertical-align: bottom;
 }
 
 #pageBodyFoot .footerTop a:last-child {
