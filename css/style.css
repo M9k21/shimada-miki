@@ -3,7 +3,7 @@
 body {
   color: #333333;
   /* font-family: 'Noto Sans JP', sans-serif; */
-  /* font-family: sans-serif; */
+  font-family: sans-serif;
 }
 
 #pageBodyMain p {
@@ -41,7 +41,7 @@ figure {
 
 /* 余白 */
 #pageBodyMain .articleDetailHead {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 #pageBodyMain .articleDetailFoot {
@@ -165,6 +165,35 @@ figure {
   padding-right: 12px;
 }
 
+/* SNSシェア */
+#pageBodyMain .articleDetail .share {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+#pageBodyMain .articleDetail .share p {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.5px;
+  padding: 5px 0;
+}
+
+#pageBodyMain .articleDetail .share a {
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+#pageBodyMain .articleDetail .share p,
+#pageBodyMain .articleDetail .share a {
+  margin-right: 20px;
+}
+
+#pageBodyMain .articleDetail .share a:last-child {
+  margin-right: 0;
+}
+
+
 /* タイトルヘッダー */
 #pageBodyMain .articleDetail .articleDetailHead {
   background-image: url("../images/main.jpg");
@@ -269,20 +298,21 @@ figure {
 }
 
 /* ローカルナビ */
-#pageBodySub .localNavi {
+#pageBodyMain .localNavi {
   width: 760px;
   background-color: #DEECF8;
   padding: 20px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-#pageBodySub .localNavi h4 {
+#pageBodyMain .localNavi h4 {
   font-size: 16px;
   line-height: 1.875;
   margin: 0 0 10px 0;
 }
 
-#pageBodySub .localNavi ul {
+#pageBodyMain .localNavi ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -291,11 +321,11 @@ figure {
   margin:0;
 }
 
-#pageBodySub .localNavi ul li {
+#pageBodyMain .localNavi ul li {
   display: flex;
 }
 
-#pageBodySub .localNavi ul li a {
+#pageBodyMain .localNavi ul li a {
   position: relative;
   color: #0C419A;
   font-size:16px;
@@ -313,10 +343,10 @@ figure {
   justify-content: center;
   align-items: center;
 }
-#pageBodySub .localNavi ul li a:hover {
+#pageBodyMain .localNavi ul li a:hover {
   background-color: #F4F4F4;
 }
-#pageBodySub .localNavi ul li a:before {
+#pageBodyMain .localNavi ul li a:before {
   position: absolute;
   top: 45%;
   left: 8px;
@@ -332,7 +362,7 @@ figure {
   width: 1000px;
   margin: 0 auto;
   border-top: solid 2px #333333;
-  margin-top: 150px;
+  margin-top: 120px;
   padding-top: 20px;
 }
 
