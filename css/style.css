@@ -45,8 +45,7 @@ figure {
 }
 
 #pageBodyMain .articleDetailFoot {
-  margin-top: 20px;
-  padding-top: 15px;
+  margin-top: 45px;
 }
 
 #pageBodySub {
@@ -54,7 +53,7 @@ figure {
 }
 
 #pageBodyFoot {
-  margin-bottom: 120px;
+  margin-bottom: 70px;
 }
 
 /* グローバルナビ */
@@ -227,20 +226,27 @@ figure {
   margin-bottom: 20px;
 }
 
-#pageBodyMain .articleDetail h2 {
+#pageBodyMain .articleDetail .articleDetailBody .articleText{
+  margin-bottom: 35px;
+}
+
+#pageBodyMain .articleDetail .articleDetailBody .articleText h2 {
   background-image: url("../images/icon-title.png");
   background-size: 23px;
   background-repeat: no-repeat;
   background-position: 0 7px;
   padding-left: 35px;
-  font-weight: 700;
+}
+
+#pageBodyMain .articleDetail .articleDetailBody .articleText p {
+  font-size: 16px;
+  line-height: 1.875;
 }
 
 /* PDFリンク */
 #pageBodyMain .articleDetailFoot .pdfLink {
   text-align: center;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 
 #pageBodyMain .articleDetailFoot .pdfLink a{
@@ -283,6 +289,12 @@ figure {
   content: "";
   clear: both;
   display: block;
+}
+
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkRight,
+#pageBodyMain .articleDetailFoot .pageLink .pageLinkLeft {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 #pageBodyMain .articleDetailFoot .pageLink .pageLinkLeft {
@@ -432,7 +444,7 @@ figure {
 
 /* 前のページに戻る */
 #pageBodySub .infoList .backPage p {
-  margin: 50px 0;
+  margin: 65px 0;
 }
 
 #pageBodySub .infoList .backPage a {
@@ -456,7 +468,7 @@ figure {
   border: solid #999999;
   border-width: 2px 0;
   padding: 30px 0;
-  margin-top: 100px;
+  margin-top: 85px;
   text-align: center;
 }
 
@@ -479,7 +491,7 @@ figure {
 
 /* フッターメニューリスト */
 #pageBodyFoot .footerMiddle {
-  margin: 40px 0;
+  margin: 30px 0;
   padding: 0 80px;
   border-bottom: 1px solid #999999;
 }
@@ -491,8 +503,9 @@ figure {
 
 #pageBodyFoot .menuList .menuListItem {
   width: 320px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   box-sizing: border-box;
+  /* align-content: space-around; */
 }
 
 #pageBodyFoot .menuList .menuListItem h4 {
@@ -523,7 +536,7 @@ figure {
 #pageBodyFoot .menuList .menuListItem ul li {
   font-size: 14px;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   background-image: url("../images/icon-chevronRight.svg");
   background-repeat: no-repeat;
   background-size: 3px;
@@ -543,7 +556,7 @@ figure {
 /* フッターボトムリスト */
 #pageBodyFoot .footerBottom {
   width: 1000px;
-  margin: 60px auto;
+  margin: 80px auto 50px;
 }
 #pageBodyFoot .footerBottom .bottomList ul {
   margin: 0;
