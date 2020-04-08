@@ -421,13 +421,23 @@ figure {
   border-width: 2px 0;
   padding: 30px 0;
   margin-top: 100px;
+  text-align: center;
 }
 
 #pageBodyFoot .footerTop h3{
   font-size: 20px;
   line-height: 1.5;
   margin: 0;
-  text-align: center;
+  display: inline-block;
+}
+
+#pageBodyFoot .footerTop h3,
+#pageBodyFoot .footerTop a {
+  margin-right: 40px;
+}
+
+#pageBodyFoot .footerTop a:last-child {
+  margin-right: 0;
 }
 
 /* フッターメニューリスト */
