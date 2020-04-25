@@ -486,20 +486,21 @@ figure {
 /* フッターメニューリスト */
 #pageBodyFoot .footerMiddle {
   margin: 30px 0;
-  padding: 0 80px;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 #pageBodyFoot .menuList {
   display: flex;
   flex-wrap: wrap;
+  width: 1280px;
+  margin: 0 auto;
 }
 
 #pageBodyFoot .menuList .menuListItem {
   width: 320px;
   margin-bottom: 30px;
   box-sizing: border-box;
-  /* align-content: space-around; */
+  align-content: space-around;
 }
 
 #pageBodyFoot .menuList .menuListItem h4 {
