@@ -900,25 +900,6 @@ p {
   letter-spacing: 0.03em;
 }
 
-.movie {
-  margin: 70px auto 210px auto;
-  padding: 0 10px;
-  width: 1040px;
-}
-
-.movie p {
-  font-size: 13px;
-  line-height: 1.769;
-  margin: 0;
-  width: 345px;
-  text-align: center;
-  letter-spacing: 0.08em;
-}
-
-.movie iframe {
-  border: none;
-}
-
 /* ページフッター */
 /* フッター01 */
 .footer01,
