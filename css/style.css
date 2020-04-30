@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'AxisStd-Regular';
+  src: url("../fonts/d226afef-6536-4b18-9b28-defffcc4baae.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AxisStd-Light';
+  src: url("../fonts/ca94208f-21dd-4dc8-ab7c-057d8dbfcccb.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AxisStd-Light', "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'AxisStd-Regular', sans-serif;
+}
+
+p {
+  color: #272727;
+  font-size: 16px;
+  line-height: 1.812;
+}
