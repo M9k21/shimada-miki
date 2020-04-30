@@ -26,6 +26,50 @@ p {
   line-height: 1.812;
 }
 
+/* 固定ヘッダー */
+.fix-header {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 63px;
+  top: -63px;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.fix-header-contents{
+  width: 1040px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.fix-header-logo img {
+  vertical-align: bottom;
+}
+
+.fix-header-tel {
+  margin-left: auto;
+}
+.fix-header-tel img {
+  margin-right: 10px;
+}
+
+.fix-header-tel p {
+  margin: 0;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.363;
+  color: #8D959C;
+  font-family: 'AxisStd-Regular';
+  letter-spacing: 0.05em;
+}
+
+.fix-header-contents .headerRequest {
+  margin-left: 10px;
+}
+
 /* ヘッダー */
 #pageHead {
   width: 1040px;
