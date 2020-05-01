@@ -483,7 +483,7 @@ p {
   font-weight: 400;
   text-align: center;
   letter-spacing: 0.2em;
-  margin: 70px;
+  margin: 80px 0 70px;
 }
 
 .about {
@@ -492,7 +492,7 @@ p {
 }
 
 .aboutText {
-  width: 620px;
+  width: 630px;
   margin: 0 auto 70px;
 }
 
@@ -501,9 +501,10 @@ p {
   line-height: 1.818;
   font-weight: 400;
   text-align: center;
-  padding: 18px 0;
-  margin: 25px 0;
+  padding-bottom: 18px;
+  margin-bottom: 25px;
   position: relative;
+  letter-spacing: 0.03em;
 }
 .aboutText h3:after {
   content: "";
@@ -519,6 +520,7 @@ p {
 
 .aboutText p {
   margin: 0;
+  letter-spacing: 0.03em;
 }
 
 .policy {
@@ -526,6 +528,7 @@ p {
   line-height: 1.807;
   font-weight: 400;
   position: relative;
+  padding-bottom: 10px;
   margin: 0 0 20px;
 }
 .policy:after {
@@ -533,15 +536,17 @@ p {
   display: block;
   width: 1039px;
   height: 2px;
-  position: relative;
+  position: absolute;
   background-image: url("../images/line.png");
   background-size: 1039px 2px;
-  background-position: left bottom;
+  left: 0;
+  bottom: 0;
 }
 
 .education {
   width: 1200px;
   display: flex;
+  margin-top: 30px;
 }
 
 .education table {
@@ -635,7 +640,7 @@ p {
 
 .appeals {
   display: flex;
-  margin: 60px 0;
+  margin: 80px 0;
 }
 
 .appealsText {
