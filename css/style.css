@@ -564,8 +564,6 @@ p {
 .education table th {
   font-size: 24px;
   line-height: 1.791;
-  /* text-align-last: justify;
-  text-justify: inter-ideograph; */
   display: flex;
   justify-content: space-between;
   border-right: 1px solid #272727;
@@ -793,7 +791,7 @@ p {
 
 .programItem a p {
   text-align: justify;
-  justify-content: inter-ideograph;
+  text-justify: inter-ideograph;
   margin: 20px 0 30px;
   letter-spacing: 0.03em;
 }
