@@ -815,10 +815,11 @@ p {
   line-height: 1.769;
   font-family: 'AxisStd-Regular';
   letter-spacing: 0.05em;
+  margin: 20px 0;
 }
 
 .otherProgram .programTitle {
-  margin: 70px 0;
+  margin: 70px 0 80px;
 }
 
 /* メインフッター */
