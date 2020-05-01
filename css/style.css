@@ -810,7 +810,7 @@ p {
   padding-left: 15px;
 }
 
-.programItemTitleNote {
+.programItem a p.programItemTitleNote {
   font-size: 13px;
   line-height: 1.769;
   font-family: 'AxisStd-Regular';
