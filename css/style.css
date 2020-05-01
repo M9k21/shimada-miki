@@ -549,9 +549,11 @@ p {
   border-spacing: 0px 30px;
 }
 
-.education table th,
+.education table th {
+  padding: 5px 15px 5px 0;
+}
 .education table td {
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 .education table th {
@@ -569,7 +571,7 @@ p {
 
 .education img {
   margin-left: auto;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 /* Nスタンダード */
