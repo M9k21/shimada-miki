@@ -13,7 +13,7 @@
 
 body {
   font-family: 'AxisStd-Light', "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,22 +71,24 @@ p {
 }
 
 /* ヘッダー */
-#pageHead {
+.header01Container,
+.header02,
+.header03 {
   width: 1040px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 /* ヘッダー01 */
 .header01 {
   font-family: 'AxisStd-Regular';
-  display: flex;
-  width: 100%;
-  margin: 0 -500%;
-  padding: 0 500%;
-  align-items: center;
   background-color: #F7F7F7;
   height: 30px;
+}
+
+.header01Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .header01 p {
@@ -114,6 +116,7 @@ p {
   font-size: 11px;
   line-height: 1.363;
   border-right: 1px solid #676767;
+  margin: 10px 0;
 }
 .headerTopNavi ul li:last-child {
   border-right: none;
@@ -341,27 +344,25 @@ p {
 }
 
 /* ローカルナビ */
-.localNavi {
-  width: 100%;
-  margin: 0 -500%;
-  padding: 0 500%;
+.localNaviWrapper {
   background-color: #181836;
+  padding: 5px 0 10px;
 }
 
 .localNavi ul {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 1030px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 0;
   position: relative;
 }
 .localNavi ul:before {
   content: "";
   position: absolute;
-  left: 75px;
-  top: -8px;
+  left: 70px;
+  top: -13px;
   display: block;
   width: 0px;
   height: 0px;
@@ -372,8 +373,8 @@ p {
 
 .localNavi ul li {
   position: relative;
-  padding-left: 30px;
-  margin-top: 5px;
+  padding-left: 35px;
+  margin-top: 8px;
 }
 .localNavi ul li:first-child {
   padding-left: 0;
@@ -385,8 +386,8 @@ p {
   width: 10px;
   height: 16px;
   background-image: url("../images/icon_slash.png");
-  left: 10px;
-  top : 11px;
+  left: 15px;
+  top : 6px;
 }
 .localNavi ul li:first-child:before{
   background-image: none;
@@ -398,8 +399,9 @@ p {
   color: #FFFFFF;
   text-decoration: none;
   display: inline-block;
-  padding: 5px 10px;
-  letter-spacing: 0.03em;
+  padding: 5px;
+  letter-spacing: 0.08em;
+  box-sizing: border-box;
 }
 .localNavi ul li a:hover {
   background-color: #FFFFFF;
