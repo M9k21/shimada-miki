@@ -24,6 +24,7 @@ p {
   color: #272727;
   font-size: 16px;
   line-height: 1.812;
+  font-weight: 700;
 }
 
 /* 固定ヘッダー */
@@ -467,6 +468,8 @@ p {
   line-height: 1.785;
   margin: 0 auto;
   padding: 20px 10px;
+  font-weight: 400;
+  letter-spacing: 0.03em;;
 }
 
 .topicPath a {
@@ -662,6 +665,7 @@ p {
 .appealsText p {
   margin: 0;
   padding: 10px 15px 0 0;
+  letter-spacing: 0.02em;
 }
 
 .programs {
@@ -818,6 +822,11 @@ p {
   font-family: 'AxisStd-Regular';
   letter-spacing: 0.05em;
   margin: 20px 0;
+  font-weight: 400;
+}
+
+.programItem a span.programItemTitleNote {
+  font-size: 13px;
 }
 
 .otherProgram .programTitle {
@@ -912,6 +921,7 @@ p {
   line-height: 1.769;
   margin: 0;
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 
 /* ページフッター */
@@ -1309,6 +1319,7 @@ p {
   line-height: 1.428;
   margin-bottom: 10px;
   letter-spacing: 0.03em;
+  font-weight: 700;
 }
 
 .footerMenuItem ul li a {
@@ -1363,9 +1374,11 @@ p {
 }
 
 .footerSns ul li {
+  font-family: 'AxisStd-Light';
   font-size: 12px;
   line-height: 1.166;
   border-left: 1px solid #DDDDDD;
+  letter-spacing: 0.03em;
 }
 
 .footerSns ul li:nth-child(1) {
