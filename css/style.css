@@ -925,18 +925,17 @@ p {
 }
 
 /* ページフッター */
-/* フッター01 */
-.footer01,
-.footer02 {
+.detail,
+.daily {
   font-family: 'AxisStd-Regular';
 }
 
-.footer01 {
+.detail {
   background-image: url("../images/detail_background.png");
   padding-bottom: 20px;
 }
 
-.detailWrapper {
+.detailContainer {
   width: 552px;
   margin: 0 auto;
 }
@@ -1074,21 +1073,20 @@ p {
   bottom: 14px;
 }
 
-/* フッター02 */
-.footer02 {
+.daily {
   width: 1040px;
   margin: 0 auto;
   padding: 40px 0;
   border-bottom: 1px solid #E1E1E1;
 }
 
-.daily {
+.dailyContainer {
   display: flex;
   width: 552px;
   margin: 0 auto;
 }
 
-.daily a {
+.dailyContainer a {
   display: inline-block;
   width: 260px;
   padding: 6px 0;
@@ -1105,11 +1103,11 @@ p {
   position:relative;
 }
 
-.daily a:nth-child(1) {
+.dailyContainer a:nth-child(1) {
   margin-left: 0;
 }
 
-.daily a:after {
+.dailyContainer a:after {
   content: "";
   display: inline-block;
   width: 5px;
@@ -1122,22 +1120,21 @@ p {
   bottom: 14px;
 }
 
-.daily a:hover {
+.dailyContainer a:hover {
   background-color: #272727;
   color: #FFFFFF;
 }
-.daily a:hover:after {
+.dailyContainer a:hover:after {
   background-image: url("../images/icon_arrow_right_white.png");
 }
 
-/* フッター03 */
-.footer03 {
+.otherSchoolContainer {
   margin: 10px auto 70px;
   width: 1010px;
   padding: 0 15px;
 }
 
-.footer03 h2 {
+.otherSchoolContainer h2 {
   font-size: 16px;
   line-height: 1.375;
   font-family: 'AxisStd-Light';
@@ -1147,7 +1144,7 @@ p {
   letter-spacing: 0.05em;
 }
 
-.footer03 ul {
+.otherSchoolContainer ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1155,11 +1152,11 @@ p {
   justify-content: space-between;
 }
 
-.footer03 ul li {
+.otherSchoolContainer ul li {
   display: flex;
 }
 
-.footer03 ul li a {
+.otherSchoolContainer li a {
   display: block;
   text-decoration: none;
   background-image: url("../images/link_background.png");
@@ -1170,7 +1167,7 @@ p {
   display: flex;
 }
 
-.otherSchool {
+.schoolLink {
   width: 478px;
   background-color: #FFFFFF;
   padding: 15px 40px;
@@ -1179,7 +1176,7 @@ p {
   position: relative;
 }
 
-.otherSchool:after {
+.schoolLink:after {
   content: "";
   display: inline-block;
   width: 5px;
@@ -1192,11 +1189,11 @@ p {
   bottom: 50px;
 }
 
-.otherSchool:hover {
+.schoolLink:hover {
   opacity: 0.7;
 }
 
-.otherSchool p {
+.schoolLink p {
   font-family: 'AxisStd-Light';
   font-size: 13px;
   line-height: 1.384;
