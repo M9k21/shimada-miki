@@ -1206,15 +1206,15 @@ p {
   background-color: #F8F8F8;
 }
 
-.footerMenuList01,
-.footerMenuList02,
-.footerMenuList03 {
+.footerMenuListTop,
+.footerMenuListMain,
+.footerMenuListAdd {
   width: 1040px;
   padding: 0;
   margin: 0 auto;
 }
 
-.footerMenuList01 {
+.footerMenuListTop {
   display: flex;
   justify-content: space-between;
 }
@@ -1264,8 +1264,8 @@ p {
   vertical-align: bottom;
 }
 
-/* フッターメニューリスト02 */
-.footerMenuList02 {
+/* フッターメニューリストメイン */
+.footerMenuListMain {
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
@@ -1335,14 +1335,14 @@ p {
   text-decoration: underline;
 }
 
-/* フッターメニューリスト3 */
-.footerMenuList03 {
+/* フッターメニューリスト補足リンク */
+.footerMenuListAdd {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-.footerMenuList03  ul {
+.footerMenuListAdd ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1439,7 +1439,7 @@ p {
   background-color: #EBEBEB;
 }
 
-.footer04 {
+.footerBottom {
   background-color: #1A1A1A;
   padding: 20px 0;
 }
