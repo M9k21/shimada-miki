@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>N高について｜N高等学校(通信制高校 広域・単位制)</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="utf-8">
+  <title>N高について｜N高等学校(通信制高校 広域・単位制)</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script>
-      $(function () {
-        "use strict";
-        var flag = "view";
+  <script>
+    $(function () {
+      "use strict";
+      var flag = "view";
 
-        $(window).on("scroll", function () {
+      $(window).on("scroll", function () {
 
-          if ($(this).scrollTop() > 176) {
-            if (flag === "view") {
-              $(".fix-header").stop().css({opacity: '1.0'}).animate({
-                top: 0
-              }, 200);
+        if ($(this).scrollTop() > 176) {
+          if (flag === "view") {
+            $(".fix-header").stop().css({ opacity: '1.0' }).animate({
+              top: 0
+            }, 200);
 
-              flag = "hide";
-            }
-          } else {
-            if (flag === "hide") {
-              $(".fix-header").stop().animate({top:"-63px"}, 200);
-              flag = "view";
-            }
+            flag = "hide";
           }
-        });
+        } else {
+          if (flag === "hide") {
+            $(".fix-header").stop().animate({ top: "-63px" }, 200);
+            flag = "view";
+          }
+        }
       });
-    </script>
+    });
+  </script>
 
-    <script>
-    $(function(){
-      $('a[href^="#"]').click(function(){
+  <script>
+    $(function () {
+      $('a[href^="#"]').click(function () {
         var speed = 500;
-        var href= $(this).attr("href");
+        var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
         var position = target.offset().top;
-        $("html, body").animate({scrollTop:position}, speed, "swing");
+        $("html, body").animate({ scrollTop: position }, speed, "swing");
         return false;
       });
     });
-    </script>
-  </head>
+  </script>
+</head>
 
-  <body>
+<body>
   <div id="page">
     <div class="fix-header">
       <div class="fix-header-contents">
@@ -71,8 +71,8 @@
     </div>
 
     <header id="pageHead">
-      <div class="header01">
-        <div class="header01Container">
+      <div class="headerTop">
+        <div class="headerTopContainer">
           <p>KADOKAWAが創る新しいネットの高校</p>
           <nav class="headerTopNavi">
             <ul>
@@ -86,36 +86,40 @@
           </nav>
           <a class="loginBtn" href="https://secure.nnn.ed.jp/mypage/">生徒用ログイン</a>
         </div>
-
       </div>
 
-      <div class="header02">
-        <a class="logo" href="https://nnn.ed.jp/"><img src="images/logo.png" width="211" height="45" alt="N高等学校"></a>
-        <div class="headerTel">
-          <img src="images/header_tel02.png" width="210" height="28" alt="電話番号0120-0252-15">
-          <p>受付時間：平日10:00～19:00</p>
+      <div class="headerMain">
+        <div class="headerMainContainer">
+          <div class="headerLogo">
+            <a class="logo" href="https://nnn.ed.jp/"><img src="images/logo.png" width="211" height="45" alt="N高等学校"></a>
+            <div class="headerTel">
+              <img src="images/header_tel02.png" width="210" height="28" alt="電話番号0120-0252-15">
+              <p>受付時間：平日10:00～19:00</p>
+            </div>
+            <a class="headerSns" href="https://www.facebook.com/nhighschool/" target="_blank"><img src="images/header_sns01.png" width="30" height="30" alt="公式facebook"></a>
+            <a class="headerSns" href="https://twitter.com/nhigh_info" target="_blank"><img src="images/header_sns02.png" width="30" height="30" alt="公式twitter"></a>
+            <a class="headerSns" href="https://www.youtube.com/channel/UC2svCyhzrmkDHzE8yTyid-w" target="_blank"><img src="images/header_sns03.png" width="30" height="30" alt="youtube公式チャンネル"></a>
+          </div>
+
+          <div class="headerMenu">
+            <nav class="unitMenu">
+              <ul>
+                <li class="current"><a class="aboutSchool" tabindex="-1">N高について</a></li>
+                <li><a class="netCourse" href="https://nnn.ed.jp/net_course/">ネットコース</a></li>
+                <li><a class="commuteCourse" href="https://nnn.ed.jp/commute_course/">通学コース</a></li>
+                <li><a class="allianceSchool" href="https://nnn.ed.jp/commute/">提携スクール</a></li>
+              </ul>
+            </nav>
+            <div class="headerRequest">
+              <ul>
+                <li><a href="https://secure1.nnn.ed.jp/form/index.html">説明会・相談会</a></li>
+                <li><a href="https://secure1.nnn.ed.jp/form/form.php">資料請求</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <a class="headerSns" href="https://www.facebook.com/nhighschool/" target="_blank"><img src="images/header_sns01.png" width="30" height="30" alt="公式facebook"></a>
-        <a class="headerSns" href="https://twitter.com/nhigh_info" target="_blank"><img src="images/header_sns02.png" width="30" height="30" alt="公式twitter"></a>
-        <a class="headerSns" href="https://www.youtube.com/channel/UC2svCyhzrmkDHzE8yTyid-w" target="_blank"><img src="images/header_sns03.png" width="30" height="30" alt="youtube公式チャンネル"></a>
       </div>
 
-      <div class="header03">
-        <nav class="unitMenu">
-          <ul>
-            <li class="current"><a class="aboutSchool" tabindex="-1">N高について</a></li>
-            <li><a class="netCourse" href="https://nnn.ed.jp/net_course/" >ネットコース</a></li>
-            <li><a class="commuteCourse" href="https://nnn.ed.jp/commute_course/">通学コース</a></li>
-            <li><a class="allianceSchool" href="https://nnn.ed.jp/commute/">提携スクール</a></li>
-          </ul>
-        </nav>
-        <div class="headerRequest">
-          <ul>
-            <li><a href="https://secure1.nnn.ed.jp/form/index.html">説明会・相談会</a></li>
-            <li><a href="https://secure1.nnn.ed.jp/form/form.php">資料請求</a></li>
-          </ul>
-        </div>
-      </div>
 
       <div class="localNaviWrapper">
         <nav class="localNavi">
@@ -493,7 +497,7 @@
         <!-- ここから関連リンク -->
         <footer class="articleFoot">
           <aside>
-            <div class="whatIsN" >
+            <div class="whatIsN">
               <a href="https://nnn.ed.jp/about/introduction/">
                 <img src="images/whatIsN.jpg" width="1060" height="300" alt="N高って？5分でわかるN高等学校">
               </a>
@@ -756,5 +760,5 @@
     <!-- ここまでフッター -->
 
   </div>
-  </body>
+</body>
 </html>
