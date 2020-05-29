@@ -981,7 +981,7 @@ p {
   position:relative;
 }
 
-.request ul li a.btn01:before {
+.request ul li a.documents:before {
   content: "";
   display: inline-block;
   width: 29px;
@@ -994,7 +994,7 @@ p {
   top: 15px;
 }
 
-.request ul li a.btn02:before {
+.request ul li a.meeting:before {
   content: "";
   display: inline-block;
   width: 29px;
